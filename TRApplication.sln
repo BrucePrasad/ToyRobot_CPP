@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ToyRobotCore", "ToyRobotCore\ToyRobotCore.vcxitems", "{C3D23190-119C-4BE1-A119-8A630937FE31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ToyRobotTest", "ToyRobotTest\ToyRobotTest.vcxproj", "{A3B3146D-2FB2-4D9D-B513-61CC3739DBC4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ToyRobotApp", "ToyRobotApp\ToyRobotApp.vcxproj", "{87852395-7673-4C1C-8E3D-13EBF5000159}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ToyRobotCore\ToyRobotCore.vcxitems*{87852395-7673-4c1c-8e3d-13ebf5000159}*SharedItemsImports = 4
+		ToyRobotCore\ToyRobotCore.vcxitems*{a3b3146d-2fb2-4d9d-b513-61cc3739dbc4}*SharedItemsImports = 4
+		ToyRobotCore\ToyRobotCore.vcxitems*{c3d23190-119c-4be1-a119-8a630937fe31}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3B3146D-2FB2-4D9D-B513-61CC3739DBC4}.Debug|x64.ActiveCfg = Debug|x64
+		{A3B3146D-2FB2-4D9D-B513-61CC3739DBC4}.Debug|x64.Build.0 = Debug|x64
+		{A3B3146D-2FB2-4D9D-B513-61CC3739DBC4}.Debug|x86.ActiveCfg = Debug|Win32
+		{A3B3146D-2FB2-4D9D-B513-61CC3739DBC4}.Debug|x86.Build.0 = Debug|Win32
+		{A3B3146D-2FB2-4D9D-B513-61CC3739DBC4}.Release|x64.ActiveCfg = Release|x64
+		{A3B3146D-2FB2-4D9D-B513-61CC3739DBC4}.Release|x64.Build.0 = Release|x64
+		{A3B3146D-2FB2-4D9D-B513-61CC3739DBC4}.Release|x86.ActiveCfg = Release|Win32
+		{A3B3146D-2FB2-4D9D-B513-61CC3739DBC4}.Release|x86.Build.0 = Release|Win32
+		{87852395-7673-4C1C-8E3D-13EBF5000159}.Debug|x64.ActiveCfg = Debug|x64
+		{87852395-7673-4C1C-8E3D-13EBF5000159}.Debug|x64.Build.0 = Debug|x64
+		{87852395-7673-4C1C-8E3D-13EBF5000159}.Debug|x86.ActiveCfg = Debug|Win32
+		{87852395-7673-4C1C-8E3D-13EBF5000159}.Debug|x86.Build.0 = Debug|Win32
+		{87852395-7673-4C1C-8E3D-13EBF5000159}.Release|x64.ActiveCfg = Release|x64
+		{87852395-7673-4C1C-8E3D-13EBF5000159}.Release|x64.Build.0 = Release|x64
+		{87852395-7673-4C1C-8E3D-13EBF5000159}.Release|x86.ActiveCfg = Release|Win32
+		{87852395-7673-4C1C-8E3D-13EBF5000159}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AB86DC6-53C8-4B76-8685-B570DE0315B3}
+	EndGlobalSection
+EndGlobal

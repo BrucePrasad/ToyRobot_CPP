@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{c3d23190-119c-4be1-a119-8a630937fe31}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Command.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CommandRules.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Common.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Constant.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DirectionRules.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RobotPosition.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ToyRobot.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CommandRules.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Common.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DirectionRules.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)RobotPosition.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ToyRobot.cpp" />
+  </ItemGroup>
+</Project>
