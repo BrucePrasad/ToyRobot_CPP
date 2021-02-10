@@ -2,8 +2,8 @@
 
 <b>Projects</b>
 
-“ToyRobotApp” – the Toy Robot console application
-“ToyRobotCore” – the core logic shared between “ToyRobotApp” and “ToyRobotTest” 
+“ToyRobotApp” – the Toy Robot console application<br>
+“ToyRobotCore” – the core logic shared between “ToyRobotApp” and “ToyRobotTest” <br>
 “ToyRobotTest” - the Toy Robot test application
 
 <b>Prerequisite</b>
